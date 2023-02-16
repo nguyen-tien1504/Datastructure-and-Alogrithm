@@ -16,8 +16,8 @@ int binarySearch(int a[],int n, int gtri){
     }
     return -1;
 }
-int main(){
-    int a[] = {1,2,3,5,7,8};
-    int n = sizeof(a) / sizeof(a[0]);
-    cout << binarySearch(a, n, 1);
-}
+//int main(){
+//    int a[] = {1,2,3,5,7,8};
+//    int n = sizeof(a) / sizeof(a[0]);
+//    cout << binarySearch(a, n, 1);
+//}

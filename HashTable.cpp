@@ -75,20 +75,20 @@ void Search(Node *heads[], int gtri){
     }
     cout <<  "Co gia tri can tim" << endl;
 }
-int main(){
-    Node *heads[M];
-    initHash(heads);
-    InsertNode(heads, 53);
-    InsertNode(heads, 2);
-    InsertNode(heads, 36);
-    InsertNode(heads, 19);
-    InsertNode(heads, 70);
-    InsertNode(heads, 12);
-    InsertNode(heads, 14);
-    InsertNode(heads, 17);
-    InsertNode(heads, 80);
-    InsertNode(heads, 15);
-    Output(heads);
-    Search(heads, 111);
-    return 0;
-}
+//int main(){
+//    Node *heads[M];
+//    initHash(heads);
+//    InsertNode(heads, 53);
+//    InsertNode(heads, 2);
+//    InsertNode(heads, 36);
+//    InsertNode(heads, 19);
+//    InsertNode(heads, 70);
+//    InsertNode(heads, 12);
+//    InsertNode(heads, 14);
+//    InsertNode(heads, 17);
+//    InsertNode(heads, 80);
+//    InsertNode(heads, 15);
+//    Output(heads);
+//    Search(heads, 111);
+//    return 0;
+//}

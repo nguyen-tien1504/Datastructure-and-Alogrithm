@@ -116,21 +116,21 @@ void DeleteNode(Node *root, int value){
 //    }
 
 }
-int main(){
-    Node *root = NULL;
-    InsertNode(root, 20);
-    InsertNode(root, 15);
-    InsertNode(root, 10);
-    InsertNode(root, 50);
-    InsertNode(root, 30);
-    InsertNode(root,55);
-    InsertNode(root,16);
-    InsertNode(root,25);
-    InsertNode(root,54);
-
-
-//    Search(root, 30);
-    DeleteNode(root,50);
-    lnr(root);
-    return 0;
-}
+//int main(){
+//    Node *root = NULL;
+//    InsertNode(root, 20);
+//    InsertNode(root, 15);
+//    InsertNode(root, 10);
+//    InsertNode(root, 50);
+//    InsertNode(root, 30);
+//    InsertNode(root,55);
+//    InsertNode(root,16);
+//    InsertNode(root,25);
+//    InsertNode(root,54);
+//
+//
+////    Search(root, 30);
+//    DeleteNode(root,50);
+//    lnr(root);
+//    return 0;
+//}

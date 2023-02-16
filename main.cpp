@@ -88,22 +88,22 @@ void XoaPhanTuBatKi(Node *&head, int gtri){
     }
 
 }
-int main() {
-    Node *head;
-    init(head);
-    AddLast(head, 50);
-    AddFirst(head, 10);
-    XoaPhanTuCuoi(head);
-//    XoaPhanTuDauTien(head);
-    AddFirst(head, 14);
-    AddFirst(head, 22);
-    AddLast(head, 99);
-    ThemVaoGiuaDS(head, 10, 100);
+//int main() {
+//    Node *head;
+//    init(head);
+//    AddLast(head, 50);
+//    AddFirst(head, 10);
 //    XoaPhanTuCuoi(head);
-    OutPut(head);
-//    XoaPhanTuDauTien(head);
-    XoaPhanTuBatKi(head, 993);
-    cout << endl << "=======" << endl;
-    OutPut(head);
-    return 0;
-}
+////    XoaPhanTuDauTien(head);
+//    AddFirst(head, 14);
+//    AddFirst(head, 22);
+//    AddLast(head, 99);
+//    ThemVaoGiuaDS(head, 10, 100);
+////    XoaPhanTuCuoi(head);
+//    OutPut(head);
+////    XoaPhanTuDauTien(head);
+//    XoaPhanTuBatKi(head, 993);
+//    cout << endl << "=======" << endl;
+//    OutPut(head);
+//    return 0;
+//}

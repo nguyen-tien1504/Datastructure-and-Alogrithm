@@ -1,0 +1,6 @@
+﻿  BinarySearchTree.cpp
+HashTable.obj : error LNK2005: "struct Node * __cdecl CreateNode(int)" (?CreateNode@@YAPEAUNode@@H@Z) already defined in BinarySearchTree.obj
+main.obj : error LNK2005: "struct Node * __cdecl CreateNode(int)" (?CreateNode@@YAPEAUNode@@H@Z) already defined in BinarySearchTree.obj
+main.obj : error LNK2005: "void __cdecl OutPut(struct Node *)" (?OutPut@@YAXPEAUNode@@@Z) already defined in Ex01.obj
+SelectionSort.obj : error LNK2005: main already defined in HashTableDictionary.obj
+D:\cpp\Cau truc du lieu va giai thuat\x64\Debug\Cau truc du lieu va giai thuat.exe : fatal error LNK1169: one or more multiply defined symbols found

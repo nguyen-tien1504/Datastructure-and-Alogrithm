@@ -123,17 +123,17 @@ void Delete(LinkedList &ds, int gtri){
     p->next = p->prev = NULL;
     delete(p);
 }
-int main(){
-    LinkedList ds;
-//    addFirst(ds, 10);
-//    addFirst(ds, 20);
-//    addFirst(ds, 30);
-//    addFirst(ds, 40);
-////    outPutFromHead(ds);
-//    addLast(ds, 100);
-    ThemVaoGiuaDs(ds, 15, 100);
-    outPutFromHead(ds);
-    Delete(ds, 15);
-    outPutFromHead(ds);
-    return 0;
-}
+//int main(){
+//    LinkedList ds;
+////    addFirst(ds, 10);
+////    addFirst(ds, 20);
+////    addFirst(ds, 30);
+////    addFirst(ds, 40);
+//////    outPutFromHead(ds);
+////    addLast(ds, 100);
+//    ThemVaoGiuaDs(ds, 15, 100);
+//    outPutFromHead(ds);
+//    Delete(ds, 15);
+//    outPutFromHead(ds);
+//    return 0;
+//}

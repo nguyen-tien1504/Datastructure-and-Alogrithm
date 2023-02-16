@@ -50,18 +50,18 @@ void OutPut(Node *head){
         p = p->next;
     }
 }
-int main(){
-    Node *head = NULL;
-    Element el0, el1, el2, el3;
-    el0.heSo = 1;
-    el0.bac = 2;
-    el1.bac = 5;
-    el2.bac = 7;
-    el3.bac = 4;
-    InsertNode(head,el0);
-    InsertNode(head,el1);
-    InsertNode(head,el2);
-    InsertNode(head,el3);
-    OutPut(head);
-    return 0;
-}
+//int main(){
+//    Node *head = NULL;
+//    Element el0, el1, el2, el3;
+//    el0.heSo = 1;
+//    el0.bac = 2;
+//    el1.bac = 5;
+//    el2.bac = 7;
+//    el3.bac = 4;
+//    InsertNode(head,el0);
+//    InsertNode(head,el1);
+//    InsertNode(head,el2);
+//    InsertNode(head,el3);
+//    OutPut(head);
+//    return 0;
+//}

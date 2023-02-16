@@ -31,21 +31,21 @@ void outPut(NodeHV *head){
         p=p->next;
     }
 }
-int main(){
-    HocVien h1;
-    h1.maHV = 123;
-    h1.tenHV = "Tien";
-    h1.namSinh = 2000;
-
-    HocVien h2;
-    h2.maHV = 456;
-    h2.tenHV = "Lien";
-    h2.namSinh = 2003;
-
-
-    NodeHV *head = NULL;
-    addFirst(head, h1);
-    addFirst(head, h2);
-    outPut(head);
-    return 0;
-}
+//int main(){
+//    HocVien h1;
+//    h1.maHV = 123;
+//    h1.tenHV = "Tien";
+//    h1.namSinh = 2000;
+//
+//    HocVien h2;
+//    h2.maHV = 456;
+//    h2.tenHV = "Lien";
+//    h2.namSinh = 2003;
+//
+//
+//    NodeHV *head = NULL;
+//    addFirst(head, h1);
+//    addFirst(head, h2);
+//    outPut(head);
+//    return 0;
+//}

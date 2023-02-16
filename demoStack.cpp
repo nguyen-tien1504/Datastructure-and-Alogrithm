@@ -43,15 +43,15 @@ void convertToBinary(int x){
     }
     cout << endl;
 }
-int main(){
-//    Stack s;
-//    init(s);
-//    push(s, 10);
-//    push(s, 20);
-//    push(s, 30);
-//    push(s, 40);
-//    pop(s);
-//    outPut(s);
-    convertToBinary(25);
-    return 0;
-}
+//int main(){
+////    Stack s;
+////    init(s);
+////    push(s, 10);
+////    push(s, 20);
+////    push(s, 30);
+////    push(s, 40);
+////    pop(s);
+////    outPut(s);
+//    convertToBinary(25);
+//    return 0;
+//}
